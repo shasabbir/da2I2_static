@@ -1,6 +1,6 @@
 /**
 * Template Name: D2A2I - v1.3.0
-* Template URL: https://bootstrapmade.com/D2A2I-bootstrap-D2A2Itics-website-template/
+* Template URL: https://bootstrapmade.com/D2A2I-bootstrap-Logistics-website-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
