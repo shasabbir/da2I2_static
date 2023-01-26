@@ -1,8 +1,8 @@
 /**
-* Template Name: D2A2I - v1.3.0
-* Template URL: https://D2A2I.com/D2A2I-bootstrap-Logistics-website-template/
-* Author: D2A2I.com
-* License: https://D2A2I.com/license/
+* Template Name: DA2I2 - v1.3.0
+* Template URL: https://DA2I2.com/DA2I2-bootstrap-Logistics-website-template/
+* Author: DA2I2.com
+* License: https://DA2I2.com/license/
 */
 
 /*--------------------------------------------------------------
@@ -1750,23 +1750,20 @@ section {
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  width: 100%;
-  min-height: 50vh;
-  background-color: var(--color-secondary);
-  background-image: url("../img/hero-bg.png");
-  background-size: cover;
-  background-position: center;
   position: relative;
-  padding: 120px 0 60px 0;
-  color: rgba(255, 255, 255, 0.8);
+  height: 100vh;
+  background-color: var(--primary-color);
+  overflow: hidden;
 }
 
 .hero h2 {
+  margin-top: 105px;
   margin-bottom: 20px;
   padding: 0;
-  font-size: 48px;
+  font-size: 53px;
   font-weight: 700;
   color: #fff;
+  text-align: center;
 }
 
 @media (max-width: 575px) {
@@ -1775,10 +1772,38 @@ section {
   }
 }
 
+.hero__video {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: 1920px;
+  height: 1080px;
+  transform: translateX(-50%) translateY(-50%);
+  filter: brightness(50%);
+}
+
+.hero__overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--primary-color);
+  opacity: 0.5;
+  z-index: 1;
+}
+
 .hero p {
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 300px;
+  margin-right: 300px;
   margin-bottom: 40px;
+  max-width: 700px;
+  color: #fff;
+  text-align: center;
 }
 
 .hero form {
@@ -1825,6 +1850,7 @@ section {
   margin-bottom: 15px;
   padding-bottom: 15px;
   position: relative;
+  color:white;
 }
 
 .hero .stats-item span:after {
@@ -1844,7 +1870,7 @@ section {
   padding: 0;
   margin: 0;
   font-family: var(--font-primary);
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
 }
 

@@ -1,8 +1,8 @@
 /**
-* Template Name: D2A2I - v1.3.0
-* Template URL: https://D2A2I.com/D2A2I-bootstrap-Logistics-website-template/
-* Author: D2A2I.com
-* License: https://D2A2I.com/license/
+* Template Name: DA2I2 - v1.3.0
+* Template URL: https://DA2I2.com/DA2I2-bootstrap-Logistics-website-template/
+* Author: DA2I2.com
+* License: https://DA2I2.com/license/
 */
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";

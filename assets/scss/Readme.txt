@@ -1,1 +1,1 @@
-The .scss (Sass) files are only avilable in the pro version. You can buy it from: https://D2A2I.com/D2A2I-bootstrap-Logistics-website-template/
+The .scss (Sass) files are only avilable in the pro version. You can buy it from: https://DA2I2.com/DA2I2-bootstrap-Logistics-website-template/

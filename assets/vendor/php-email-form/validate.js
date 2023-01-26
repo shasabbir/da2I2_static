@@ -1,7 +1,7 @@
 /**
 * PHP Email Form Validation - v3.5
-* URL: https://D2A2I.com/php-email-form/
-* Author: D2A2I.com
+* URL: https://DA2I2.com/php-email-form/
+* Author: DA2I2.com
 */
 (function () {
   "use strict";
