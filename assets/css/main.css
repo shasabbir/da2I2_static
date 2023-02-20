@@ -1750,20 +1750,28 @@ section {
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  position: relative;
+  width: 100%;
   height: 100vh;
-  background-color: var(--primary-color);
-  overflow: hidden;
+  background-color: var(--color-secondary);
+  background-image: url("../img/Da2i2-about-01.jpeg");
+  /* background-image: url("../img/da2i2-pic.png"); */
+  /* filter: brightness(50%); */
+  /* background-color: rgb(104, 104, 104);
+  background-blend-mode: multiply; */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 120px 0 60px 0;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .hero h2 {
-  /* margin-top: 15%; */
   margin-bottom: 2%;
   padding: 0;
-  font-size: 53px;
+  font-size: 48px;
   font-weight: 700;
   color: #fff;
-  text-align: center;
+  /* text-align: center; */
 }
 
 @media (max-width: 575px) {
@@ -1772,37 +1780,28 @@ section {
   }
 }
 
-.hero__video {
-  position: absolute;
-  top:50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: 1920px;
-  height: 1080px;
-  transform: translateX(-50%) translateY(-50%);
-  filter: brightness(50%);
+.hero h3 {
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: 47px;
+  font-weight: 550;
+  color: #e6881d;
+  filter: brightness(85%);
+  /* text-align: center; */
 }
 
-.hero__overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background-color: var(--primary-color);
-  opacity: 0.5;
-  z-index: 1;
+@media (max-width: 575px) {
+  .hero h3 {
+    font-size: 30px;
+  }
 }
 
 .hero p {
-  font-size: 18px;
-  font-weight: 300;
-  /* margin-left: 20%;
-  margin-right: 20%; */
-  /* margin-bottom: 2%; */
+  font-size: 15px;
+  /* font-weight: 300; */
+  font-weight: 400;
   max-width: 700px;
-  color: #fff;
+  /* margin-bottom: 40px; */
   /* text-align: center; */
 }
 
@@ -1850,7 +1849,6 @@ section {
   margin-bottom: 15px;
   padding-bottom: 15px;
   position: relative;
-  color:white;
 }
 
 .hero .stats-item span:after {
@@ -1870,7 +1868,7 @@ section {
   padding: 0;
   margin: 0;
   font-family: var(--font-primary);
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
 }
 
